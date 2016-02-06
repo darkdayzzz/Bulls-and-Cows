@@ -15,6 +15,7 @@ IMPORTANT:
 - Update the ISOGRAM_FILE constant in main.cpp to point to your own copy of the isograms.txt file
 
 Notes:
+
 ISOGRAMS.TXT
 - The isograms.txt file was generated from the list of 5000 most common English words provided for 
 free from http://www.wordfrequency.info/intro.asp
@@ -36,5 +37,6 @@ I then copied the words that were isograms and length of 3 or more to a new docu
 There you have it: a list of isograms drawn from the most common 5000 words in the English language! :)
 
 ASCII art
+
 Just for fun I used Paint to draw a completely terrible bull and cow at 120x50 pixels.
 Then loaded it into http://www.glassgiant.com/ascii/ to ASCII-fy it to 60 characters wide and used Notepad to replace "." with spaces and add the std:cout before each line and \n after and then paste that into PrintIntro()...
